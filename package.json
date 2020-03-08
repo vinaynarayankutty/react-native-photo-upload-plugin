@@ -2,7 +2,7 @@
   "name": "react-native-photo-upload-plugin",
   "version": "1.0.0",
   "description": "A photo upload plugin",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,15 @@
     "react-component",
     "photo"
   ],
+  "peerDependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "react-native-image-picker": "^2.3.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
   "author": "Vinay N",
   "license": "MIT",
   "bugs": {
